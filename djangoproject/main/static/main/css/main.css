@@ -1,0 +1,32 @@
+body{
+    background: lightsteelblue;
+}
+
+aside{
+    float: left;
+    background: lavender ;
+    width: 20%;
+    padding: 2.5%;
+    height: 100vh;
+    color: black;
+}
+
+aside h3{
+    margin-top: 50px;
+    font-size: 27px;
+}
+
+aside ul{list-style: none;}
+aside ul li {
+    color:black;
+    display: block;
+    margin-top: 20px;
+}
+
+main.features{
+    float:left;
+    color: black;
+    margin-top: 100px;
+    text-align: center;
+    width: 75%;
+}
