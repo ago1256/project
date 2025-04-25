@@ -5,7 +5,12 @@
 {% block content %}
     <div class="features">
         <h1>Новости на сайте</h1>
-        <button class="btn btn-warning"> На страницу о нас</button>
+        {% for el in news %}
+            <div class="'alert alert-warning">
+            <h3>{{el.title}}</h3>
+            <p>{{el.anons}}</p>
+            </div>
+        {% endfor %}
     </div>
     
 {% endblock%}
